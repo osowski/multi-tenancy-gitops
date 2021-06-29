@@ -82,7 +82,7 @@ spec:
   source:
     path: 2-services/argocd/active/operators
     repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
-    targetRevision: master
+    targetRevision: demo-mq-v2-ha
   syncPolicy:
     automated:
       prune: true
@@ -102,7 +102,7 @@ spec:
   source:
     path: 2-services/argocd/active/instances
     repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
-    targetRevision: master
+    targetRevision: demo-mq-v2-ha
   syncPolicy:
     automated:
       prune: true

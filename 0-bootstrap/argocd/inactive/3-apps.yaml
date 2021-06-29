@@ -38,7 +38,7 @@ spec:
   source:
     path: 3-apps/argocd/active
     repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
-    targetRevision: master
+    targetRevision: demo-mq-v2-ha
   syncPolicy:
     automated:
       prune: true
